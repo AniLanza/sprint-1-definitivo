@@ -1,0 +1,85 @@
+body{
+    background-color: #2d1f1af0;
+}
+h1{
+    background-color: #84b59a;
+    text-align: center;
+    text-decoration-line: overline;
+    text-decoration-color: #dfca0d;
+    text-wrap: pretty;
+    text-shadow: -6px 5px white;
+    font-family: math;
+    font-size: xxx-large;
+    border-radius: 90px;
+    margin-top: 5px;
+}
+
+a{
+    background-color: yellow;
+    color: black;
+    padding:6px 25px 6px 25px;
+    border-radius: 6px;
+    text-decoration: none;
+    border: 3px solid #84b59a;
+    font-size: smaller;
+    font-family: emoji;
+    display: block;
+    animation-timing-function: cubic-bezier(0.96, 0.35, 0.58, 1);
+    animation-direction: alternate-reverse;
+    animation-play-state: running;
+    text-align:center;
+    margin: 0px 0px 0px 95px;
+
+}
+
+a:hover{
+    background-color:#3e587a;
+    text-align:center;
+}
+
+a:active{
+    background-color:#3e587a;
+    cursor: grab; 
+    text-align:center;
+}
+
+h3{
+    color: darkred;
+    text-align:center;
+    text-shadow: -6px -6px cornsilk;
+    padding: 0px 320px 0px 320px;
+}
+
+h4{
+    color:  darkred
+    text-align:center;
+    text-shadow: -6px -6px  cornsilk; 
+    padding: 0px 327px 0px 327px;
+}
+p{
+    color:#3e587a;
+    text-align:center;
+    padding: 0px 327px 0px 327px;
+    font-family: cursive;
+    
+}
+
+img{
+    padding: 31px 538px;
+    width: 471px;
+}
+
+footer{
+    padding: 0px 0px 0px 752px;
+    text-align:end;
+}
+
+nav{
+    padding:6px 170px 0px;
+    margin: 0px 27px 0px;
+
+}
+
+style{
+    padding: 31px 538px;
+}
