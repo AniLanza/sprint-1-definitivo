@@ -1,6 +1,5 @@
 body{
-    background-color: #51305b;
-    
+    background-color: #2d1f1af0;
 }
 h1{
     background-color: #84b59a;
@@ -55,7 +54,7 @@ h4{
     color: darkred;
     text-align:center;
     text-shadow:-6px -6px  cornsilk; 
-    padding:0px 327px 0px 327px;
+    padding: 0px 327px 0px 327px;
 }
 
 p{
