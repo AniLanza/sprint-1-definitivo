@@ -1,5 +1,6 @@
 body{
-    background-color: #2d1f1af0;
+    background-color: #51305b;
+    
 }
 h1{
     background-color: #84b59a;
@@ -51,11 +52,12 @@ h3{
 }
 
 h4{
-    color:  darkred
+    color: darkred;
     text-align:center;
-    text-shadow: -6px -6px  cornsilk; 
-    padding: 0px 327px 0px 327px;
+    text-shadow:-6px -6px  cornsilk; 
+    padding:0px 327px 0px 327px;
 }
+
 p{
     color:#3e587a;
     text-align:center;
