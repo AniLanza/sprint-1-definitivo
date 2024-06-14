@@ -1,5 +1,5 @@
 body {
-    background-color: #42244b
+    background-color: #42244b;
     font-family: sans-serif;
     background-size: cover;
     position: relative;
@@ -52,9 +52,9 @@ body {
   }
   
   .boton {
-    display: block; 
-    padding: 20px 30px;
-    background-color:  background-color:#3e587a;
+    display:block; 
+    padding:20px 30px;
+    background-color:background-color#3e587a;
     color: #fff; 
     text-decoration: none; 
     font-size: 18px;
@@ -62,7 +62,7 @@ body {
   }
   
   .boton:hover {
-    background-color: background-color:#3e587a;
+    background-color: background-color#3e587a;
   }
 
   
