@@ -1,0 +1,128 @@
+body {
+    background-color: #42244b
+    font-family: sans-serif;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .imagen {
+    background-image: url(./asset/design1_image2.jpg); 
+    background-repeat: repeat; 
+    background-size: cover;
+    background-attachment: fixed;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+  
+  header {
+    text-align: center;
+    position: relative; 
+    z-index: 1; 
+  }
+  
+  h1 {
+    display: inline-block; 
+    transform: rotate(-10deg) perspective(1000px); 
+    font-size: 4em;
+    background-color: #84b59a;
+    text-align: center;
+    text-decoration-line: overline;
+    text-decoration-color: #dfca0d;
+    text-wrap: pretty;
+    text-shadow: -6px 5px white;
+    font-family: math;
+  }
+
+
+  main {
+    position: relative;
+    z-index: 0;
+  }
+
+
+  .contenedor-botones {
+    display: flex; 
+    justify-content: space-around; 
+    margin-bottom: 50px; 
+    background-color: #42244b;
+  }
+  
+  .boton {
+    display: block; 
+    padding: 20px 30px;
+    background-color:  background-color:#3e587a;
+    color: #fff; 
+    text-decoration: none; 
+    font-size: 18px;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+  }
+  
+  .boton:hover {
+    background-color: background-color:#3e587a;
+  }
+
+  
+  .contenedor-secciones {
+    display: flex; 
+    justify-content: space-around; 
+    flex-wrap: wrap; 
+    margin: 50px auto;
+    width: 80%; 
+    z-index: 1; 
+ 
+  }
+  
+  .seccion {
+    background-color: #d1dd24;
+    padding: 20px;
+    text-align: center;
+    width: 30%;
+    color: darkred;
+    text-align:center;
+    text-shadow: -6px -6px cornsilk;
+    padding: 0px 320px 0px 320px;
+    position: sticky;
+    top:0px;
+  }
+  
+  footer {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 20px;
+    background-color: #333; 
+    color: #fff; 
+    position: relative; 
+    z-index: 1;
+    top: 460px
+  }
+
+  
+  .logo-flotante {
+    position: fixed; 
+    bottom: 20px; 
+    left: 20px; 
+    transform: translate(-50%, -50%); 
+    animation: giro 3s linear infinite; 
+  }
+  
+  .logo-flotante img {
+    width: 100px; 
+    height: auto; 
+  }
+  
+  @keyframes giro {
+    from {
+      transform: rotate(0deg); 
+    }
+    to {
+      transform: rotate(90deg);
+    }
+  }
+
+  
+
